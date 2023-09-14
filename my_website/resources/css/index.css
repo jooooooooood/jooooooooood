@@ -1,0 +1,54 @@
+/* styles.css */
+body {
+  background-color: black;
+  color: white;
+}
+
+#name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+}
+.navbar {
+  background-color: #333; /* Background color */
+  color: white; /* Text color */
+  position: fixed; /* Fixed position at the top of the page */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style the navigation links and buttons */
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a, .navbar button {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: transparent; /* Remove background color */
+  border: none; /* Remove border */
+  cursor: pointer; /* Add pointer cursor */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  font-size: inherit; /* Inherit font size */
+}
+
+.navbar a:hover{
+  color: #00bcd4; /* Hover color */
+}
+
+.navbar button:hover {
+  color: pink;
+}
